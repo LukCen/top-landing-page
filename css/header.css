@@ -3,7 +3,9 @@ header {
   flex-direction: column;
   border: 1px solid grey;
   height: 300px;
-  font-family: 'Roboto', sans-serif
+  font-family: 'Roboto', 'Overpass', sans-serif;
+  padding: 0 80px;
+  background-color: #1F2937;
 }
 
 header>* {
@@ -11,7 +13,6 @@ header>* {
 }
 
 .header-nav {
-  background-color: #1F2937;
   display: flex;
   flex: 1;
   align-items: center;
@@ -20,7 +21,6 @@ header>* {
   display: flex;
   align-items: center;
   height: 100%;
-  padding: 8px;
 }
 .header-nav-logo {
   flex: 2;
@@ -31,11 +31,11 @@ header>* {
   list-style: none;
   display: flex;
   flex: 1;
-  gap: 16px;
+  gap: 36px;
 }
 menu {
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
 }
 li {
   text-align: center;
@@ -54,7 +54,46 @@ a:hover {
 
 .header-body {
   display: flex;
-  border: 1px solid blue;
-  background-color: blanchedalmond;
   flex: 4;
+  overflow: hidden;
+  min-width: 300px;
+}
+
+.header-body-desc {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.header-body-desc h2 {
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.header-body-desc p {
+  font-size: 12px;
+}
+
+.header-body-desc button {
+  background-color: #3882F6;
+  color: white;
+  padding: 6px 18px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.header-body-desc button:hover {
+  background-color: #1751af;
+}
+
+.header-img {
+  display: flex;
+  height: 100%;
+  flex: 1;
+  justify-content: flex-end;
 }
