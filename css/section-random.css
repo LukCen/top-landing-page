@@ -1,0 +1,43 @@
+.random-info {
+  display: flex;
+  background-color: rgb(169, 216, 216);
+  flex-direction: column;
+  height: 300px;
+  font-family: 'Roboto', sans-serif
+}
+
+.random-info h2 {
+  text-align: center;
+}
+.parent-box {
+  display: flex;
+  height: 100%;
+
+}
+.box-container {
+  gap: 16px;
+  height: 100%;
+  display: flex;
+  background-color: aquamarine;
+  border: 1px solid red;
+  flex: 1;
+  flex-direction: column;
+  padding: 8px;
+  align-items: center;
+  justify-content: center;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  height: 75px;
+  width: 75px;
+  border: 2px solid blue;
+  border-radius: 7px;
+  align-self: center;
+}
+
+.box p {
+  display: flex;
+  text-align: center;
+}
