@@ -1,0 +1,13 @@
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  background-color: #1F2937;
+  font-family: 'Roboto', sans-serif;
+}
+
+footer p {
+  font-style: italic;
+  color: white;
+}
