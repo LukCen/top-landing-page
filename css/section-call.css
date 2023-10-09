@@ -1,0 +1,40 @@
+.call {
+  height: 300px;
+  display: flex;
+  padding: 30px 80px;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto', sans-serif
+}
+
+.container-call {
+  background-color: #3882F6;
+  display: flex;
+  padding: 80px;
+  border-radius: 5px;
+  gap: 16px;
+}
+
+.container-call-text {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.container-call-text .header-2 {
+  font-size: 24px;
+  font-weight: bold;
+}
+.container-call-text p:nth-child(2) {
+  font-size: 12px;
+  font-style: italic;
+}
+
+.container-call button {
+  background-color: transparent;
+  border: 3px solid white;
+  border-radius: 7.5px;
+  color: white;
+  align-self: flex-end;
+  padding: 5px 15px;
+}
